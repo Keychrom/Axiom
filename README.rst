@@ -6,13 +6,13 @@
 .. _CONTRIBUTING: https://github.com/searxng/searxng/blob/master/CONTRIBUTING.rst
 .. _LICENSE: https://github.com/searxng/searxng/blob/master/LICENSE
 
-.. figure:: https://raw.githubusercontent.com/searxng/searxng/master/client/simple/src/brand/searxng.svg
+.. figure:: https://raw.githubusercontent.com/searxng/searxng/master/client/simple/src/brand/axiom.svg
    :target: https://searxng.org
-   :alt: SearXNG
+   :alt: AXIOM
    :width: 512px
 
 
-SearXNG is a `metasearch engine`_. Users are neither tracked nor profiled.
+AXIOM is a `metasearch engine`_. Users are neither tracked nor profiled.
 
 .. image:: https://img.shields.io/badge/organization-3050ff?style=flat-square&logo=searxng&logoColor=fff&cacheSeconds=86400
    :target: https://github.com/searxng
@@ -37,9 +37,9 @@ SearXNG is a `metasearch engine`_. Users are neither tracked nor profiled.
 Setup
 =====
 
-To install SearXNG, see `Installation guide`_.
+To install AXIOM, see `Installation guide`_.
 
-To fine-tune SearXNG, see `Configuration guide`_.
+To fine-tune AXIOM, see `Configuration guide`_.
 
 Further information on *how-to* can be found `here <https://docs.searxng.org/admin/index.html>`_.
 

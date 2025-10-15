@@ -129,8 +129,8 @@ export default {
         dest: `${PATH.dist}/img/favicon.png`
       },
       {
-        src: `${PATH.brand}/searxng.svg`,
-        dest: `${PATH.dist}/img/searxng.png`
+        src: `${PATH.brand}/axiom.svg`,
+        dest: `${PATH.dist}/img/axiom.png`
       }
     ]),
 
@@ -138,8 +138,8 @@ export default {
     plg_svg2svg(
       [
         {
-          src: `${PATH.brand}/searxng.svg`,
-          dest: `${PATH.dist}/img/searxng.svg`
+          src: `${PATH.brand}/axiom.svg`,
+          dest: `${PATH.dist}/img/axiom.svg`
         },
         {
           src: `${PATH.brand}/img_load_error.svg`,

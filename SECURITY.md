@@ -1,6 +1,6 @@
 # Security Policy
 
-We love responsible reports of (potential) security issues in SearXNG.
+We love responsible reports of (potential) security issues in AXIOM.
 
 You can contact us at security@searxng.org.
 

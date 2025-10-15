@@ -9,9 +9,9 @@ from searx.version import VERSION_STRING, GIT_URL, GIT_BRANCH
 
 # Project --------------------------------------------------------------
 
-project = 'SearXNG'
-copyright = 'SearXNG team'
-author = 'SearXNG team'
+project = 'AXIOM'
+copyright = 'AXIOM team'
+author = 'AXIOM team'
 release, version = VERSION_STRING, VERSION_STRING
 SEARXNG_URL = get_setting('server.base_url') or 'https://example.org/searxng'
 ISSUE_URL = get_setting('brand.issue_url')
@@ -200,7 +200,7 @@ html_sidebars = {
 }
 singlehtml_sidebars = {"index": ["project.html", "localtoc.html"]}
 html_logo = "../client/simple/src/brand/searxng-wordmark.svg"
-html_title = "SearXNG Documentation ({})".format(VERSION_STRING)
+html_title = "AXIOM Documentation ({})".format(VERSION_STRING)
 html_show_sourcelink = True
 
 # LaTeX ----------------------------------------------------------------
