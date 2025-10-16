@@ -10,8 +10,8 @@ from searx.version import VERSION_STRING, GIT_URL, GIT_BRANCH
 # Project --------------------------------------------------------------
 
 project = 'AXIOM'
-copyright = 'AXIOM team'
-author = 'AXIOM team'
+copyright = 'Studio NØSa'
+author = 'Studio NØSa'
 release, version = VERSION_STRING, VERSION_STRING
 SEARXNG_URL = get_setting('server.base_url') or 'https://example.org/searxng'
 ISSUE_URL = get_setting('brand.issue_url')
@@ -90,8 +90,8 @@ def setup(app):
 extlinks = {}
 
 # upstream links
-extlinks['wiki'] = ('https://github.com/searxng/searxng/wiki/%s', ' %s')
-extlinks['pull'] = ('https://github.com/searxng/searxng/pull/%s', 'PR %s')
+extlinks['wiki'] = ('https://github.com/Keychrom/Axiom/wiki/%s', ' %s')
+extlinks['pull'] = ('https://github.com/Keychrom/Axiom/pull/%s', 'PR %s')
 extlinks['pull-searx'] = ('https://github.com/searx/searx/pull/%s', 'PR %s')
 
 # links to custom brand
@@ -154,7 +154,7 @@ intersphinx_mapping = {
     "lxml": ('https://lxml.de/apidoc', None),
 }
 
-issues_github_path = "searxng/searxng"
+issues_github_path = "Keychrom/Axiom"
 
 # HTML -----------------------------------------------------------------
 

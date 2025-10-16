@@ -3,10 +3,10 @@
 .. _metasearch engine: https://en.wikipedia.org/wiki/Metasearch_engine
 .. _Installation guide: https://docs.searxng.org/admin/installation.html
 .. _Configuration guide: https://docs.searxng.org/admin/settings/index.html
-.. _CONTRIBUTING: https://github.com/searxng/searxng/blob/master/CONTRIBUTING.rst
-.. _LICENSE: https://github.com/searxng/searxng/blob/master/LICENSE
+.. _CONTRIBUTING: https://github.com/Keychrom/Axiom/blob/master/CONTRIBUTING.rst
+.. _LICENSE: https://github.com/Keychrom/Axiom/blob/master/LICENSE
 
-.. figure:: https://raw.githubusercontent.com/searxng/searxng/master/client/simple/src/brand/axiom.svg
+.. figure:: https://raw.githubusercontent.com/Keychrom/Axiom/master/client/simple/src/brand/axiom.svg
    :target: https://searxng.org
    :alt: AXIOM
    :width: 512px
@@ -22,12 +22,12 @@ AXIOM is a `metasearch engine`_. Users are neither tracked nor profiled.
    :target: https://docs.searxng.org
    :alt: Documentation
 
-.. image:: https://img.shields.io/github/license/searxng/searxng?style=flat-square&label=license&color=3050ff&cacheSeconds=86400
-   :target: https://github.com/searxng/searxng/blob/master/LICENSE
+.. image:: https://img.shields.io/github/license/Keychrom/Axiom?style=flat-square&label=license&color=3050ff&cacheSeconds=86400
+   :target: https://github.com/Keychrom/Axiom/blob/master/LICENSE
    :alt: License
 
-.. image:: https://img.shields.io/github/commit-activity/y/searxng/searxng/master?style=flat-square&label=commits&color=3050ff&cacheSeconds=3600
-   :target: https://github.com/searxng/searxng/commits/master/
+.. image:: https://img.shields.io/github/commit-activity/y/Keychrom/Axiom/master?style=flat-square&label=commits&color=3050ff&cacheSeconds=3600
+   :target: https://github.com/Keychrom/Axiom/commits/master/
    :alt: Commits
 
 .. image:: https://img.shields.io/weblate/progress/searxng?server=https%3A%2F%2Ftranslate.codeberg.org&style=flat-square&label=translated&color=3050ff&cacheSeconds=86400
