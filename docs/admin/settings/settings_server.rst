@@ -66,7 +66,7 @@
   versus cons*:
 
   - `[doc] adds the missing documentation of the server.method settings
-    <https://github.com/searxng/searxng/pull/3619>`__
+    <https://github.com/Keychrom/Axiom/pull/3619>`__
   - look out for `label:"http methods GET & POST"
     <https://github.com/search?q=repo%3Asearxng%2Fsearxng+label%3A%22http+methods+GET+%26+POST%22>`__
 

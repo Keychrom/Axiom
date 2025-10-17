@@ -186,7 +186,7 @@ container images are not officially supported):
 
 .. code:: sh
 
-   $ git clone https://github.com/searxng/searxng.git
+   $ git clone https://github.com/Keychrom/Axiom.git
    $ cd ./searxng/
 
    # Run the container build script

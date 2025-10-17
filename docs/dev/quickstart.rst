@@ -21,7 +21,7 @@ Don't hesitate, just clone SearXNG's sources and start hacking right now ..
 
 .. code:: bash
 
-    git clone https://github.com/searxng/searxng.git searxng
+    git clone https://github.com/Keychrom/Axiom.git searxng
 
 For the developer environment, `mise en place`_ is recommended:
 
@@ -37,7 +37,7 @@ trust the project:
    $ mise trust
 
 .. _mise.toml:
-    https://github.com/searxng/searxng/blob/master/mise.toml
+    https://github.com/Keychrom/Axiom/blob/master/mise.toml
 .. _mise en place:
     https://mise.jdx.dev/getting-started.html
 

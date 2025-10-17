@@ -36,7 +36,7 @@ class ProxyFix:
       before the IPs that are still part of the ``botdetection.trusted_proxies``
       is used.
 
-    - `X-Real-IP <https://github.com/searxng/searxng/issues/1237#issuecomment-1147564516>`__:
+    - `X-Real-IP <https://github.com/Keychrom/Axiom/issues/1237#issuecomment-1147564516>`__:
       If X-Forwarded-For_ is not set, `X-Real-IP` is used
       (``botdetection.trusted_proxies`` is ignored).
 

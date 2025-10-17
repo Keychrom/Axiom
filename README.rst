@@ -15,7 +15,7 @@
 AXIOM is a `metasearch engine`_. Users are neither tracked nor profiled.
 
 .. image:: https://img.shields.io/badge/organization-3050ff?style=flat-square&logo=searxng&logoColor=fff&cacheSeconds=86400
-   :target: https://github.com/searxng
+   :target: https://github.com/Keychrom
    :alt: Organization
 
 .. image:: https://img.shields.io/badge/documentation-3050ff?style=flat-square&logo=readthedocs&logoColor=fff&cacheSeconds=86400
