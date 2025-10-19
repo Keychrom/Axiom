@@ -10,7 +10,7 @@ Step by step installation
    :backlinks: entry
 
 
-In this section we show the setup of a SearXNG instance that will be installed
+In this section we show the setup of a AXIOM instance that will be installed
 by the :ref:`installation scripts`.
 
 .. _install packages:
@@ -24,9 +24,9 @@ Install packages
 
 .. hint::
 
-   This installs also the packages needed by :ref:`searxng uwsgi`
+   This installs also the packages needed by :ref:`axiom uwsgi`
 
-.. _create searxng user:
+.. _create axiom user:
 
 Create user
 ===========
@@ -37,7 +37,7 @@ Create user
 
 .. _searxng-src:
 
-Install SearXNG & dependencies
+Install AXIOM & dependencies
 ==============================
 
 Start a interactive shell from new created user and clone SearXNG:

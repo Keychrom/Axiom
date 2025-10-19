@@ -2,9 +2,9 @@
 
 import { listen } from "../core/toolkit.ts";
 
-listen("click", ".searxng_init_map", async function (this: HTMLElement, event: Event) {
+listen("click", ".axiom_init_map", async function (this: HTMLElement, event: Event) {
   event.preventDefault();
-  this.classList.remove("searxng_init_map");
+  this.classList.remove("axiom_init_map");
 
   const {
     View,

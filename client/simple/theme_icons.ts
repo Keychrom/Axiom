@@ -10,15 +10,15 @@ import type { Config as SvgoConfig } from "svgo";
 import { type IconSet, type JinjaMacro, jinja_svg_sets } from "./tools/jinja_svg_catalog.ts";
 
 const HERE = `${dirname(argv[1] || "")}/`;
-const dest: string = resolve(HERE, "../../searx/templates/simple/icons.html");
+const dest: string = resolve(HERE, "../../axiom/templates/simple/icons.html");
 
-const searxng_jinja_macros: JinjaMacro[] = [
-  { name: "icon", class: "sxng-icon-set" },
-  { name: "icon_small", class: "sxng-icon-set-small" },
-  { name: "icon_big", class: "sxng-icon-set-big" }
+const axiom_jinja_macros: JinjaMacro[] = [
+  { name: "icon", class: "axiom-icon-set" },
+  { name: "icon_small", class: "axiom-icon-set-small" },
+  { name: "icon_big", class: "axiom-icon-set-big" }
 ];
 
-const sxng_icon_opts: SvgoConfig = {
+const axiom_icon_opts: SvgoConfig = {
   multipass: true,
   plugins: [
     "removeTitle",
@@ -66,7 +66,7 @@ const simple_icons: IconSet[] = [
       settings: "settings-outline.svg",
       tv: "tv-outline.svg"
     },
-    svgo_opts: sxng_icon_opts
+    svgo_opts: axiom_icon_opts
   },
   // some of the ionicons are not suitable for a dark theme, we fixed the svg
   // manually in src/svg/ionicons
@@ -77,8 +77,8 @@ const simple_icons: IconSet[] = [
       "information-circle": "information-circle-outline.svg",
       newspaper: "newspaper-outline.svg"
     },
-    svgo_opts: sxng_icon_opts
+    svgo_opts: axiom_icon_opts
   }
 ];
 
-jinja_svg_sets(dest, searxng_jinja_macros, simple_icons);
+jinja_svg_sets(dest, axiom_jinja_macros, simple_icons);

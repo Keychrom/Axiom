@@ -125,7 +125,7 @@ export default {
     // SearXNG brand (static)
     plg_svg2png([
       {
-        src: `${PATH.brand}/searxng-wordmark.svg`,
+        src: `${PATH.brand}/axiom-wordmark.svg`,
         dest: `${PATH.dist}/img/favicon.png`
       },
       {
@@ -153,7 +153,7 @@ export default {
     plg_svg2svg(
       [
         {
-          src: `${PATH.brand}/searxng-wordmark.svg`,
+          src: `${PATH.brand}/axiom-wordmark.svg`,
           dest: `${PATH.dist}/img/favicon.svg`
         }
       ],
@@ -164,8 +164,8 @@ export default {
     plg_svg2svg(
       [
         {
-          src: `${PATH.brand}/searxng-wordmark.svg`,
-          dest: `${PATH.templates}/searxng-wordmark.min.svg`
+          src: `${PATH.brand}/axiom-wordmark.svg`,
+          dest: `${PATH.templates}/axiom-wordmark.min.svg`
         }
       ],
       svg2svg_opts

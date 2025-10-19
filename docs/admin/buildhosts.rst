@@ -21,13 +21,13 @@ To Install tools used by build and development tasks in once:
 
 .. tabs::
 
-  .. group-tab:: SearXNG's development tools
+  .. group-tab:: AXIOM's development tools
 
      .. code:: sh
 
         $ sudo -H ./utils/searxng.sh install buildhost
 
-This will install packages needed by SearXNG:
+This will install packages needed by AXIOM:
 
 .. kernel-include:: $DOCS_BUILD/includes/searxng.rst
    :start-after: START distro-packages

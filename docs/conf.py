@@ -13,7 +13,7 @@ project = 'AXIOM'
 copyright = 'Studio NØSa'
 author = 'Studio NØSa'
 release, version = VERSION_STRING, VERSION_STRING
-SEARXNG_URL = get_setting('server.base_url') or 'https://example.org/searxng'
+AXIOM_URL = get_setting('server.base_url') or 'https://example.org/axiom'
 ISSUE_URL = get_setting('brand.issue_url')
 DOCS_URL = get_setting('brand.docs_url')
 PUBLIC_INSTANCES = get_setting('brand.public_instances')
@@ -158,8 +158,8 @@ issues_github_path = "Keychrom/Axiom"
 
 # HTML -----------------------------------------------------------------
 
-# https://searxng.github.io/searxng --> '/searxng/'
-# https://docs.searxng.org --> '/'
+# https://axiom.github.io/axiom --> '/axiom/'
+# https://docs.axiom.org --> '/'
 notfound_urls_prefix = '/'
 
 sys.path.append(os.path.abspath('_themes'))
@@ -199,12 +199,12 @@ html_sidebars = {
     ],
 }
 singlehtml_sidebars = {"index": ["project.html", "localtoc.html"]}
-html_logo = "../client/simple/src/brand/searxng-wordmark.svg"
+html_logo = "../client/simple/src/brand/axiom-wordmark.svg"
 html_title = "AXIOM Documentation ({})".format(VERSION_STRING)
 html_show_sourcelink = True
 
 # LaTeX ----------------------------------------------------------------
 
 latex_documents = [
-    (master_doc, "searxng-{}.tex".format(VERSION_STRING), html_title, author, "manual")
+    (master_doc, "axiom-{}.tex".format(VERSION_STRING), html_title, author, "manual")
 ]

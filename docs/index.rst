@@ -23,20 +23,20 @@ If you don't trust anyone, you can set up your own, see :ref:`installation`.
       - script & cookies are optional
       - secure, encrypted connections
       - :ref:`{{engines | length}} search engines <configured engines>`
-      - `58 translations <https://translate.codeberg.org/projects/searxng/searxng/>`_
-      - about 70 `well maintained <https://uptime.searxng.org/>`__ instances on searx.space_
+      - `58 translations <https://translate.codeberg.org/projects/axiom/axiom/>`_
+      - about 70 `well maintained <https://uptime.axiom.org/>`__ instances on searx.space_
       - :ref:`easy integration of search engines <demo online engine>`
       - professional development: `CI <https://github.com/Keychrom/Axiom/actions>`_,
-	`quality assurance <https://dev.searxng.org/>`_ &
-	`automated tested UI <https://dev.searxng.org/screenshots.html>`_
+	`quality assurance <https://dev.axiom.org/>`_ &
+	`automated tested UI <https://dev.axiom.org/screenshots.html>`_
 
 .. sidebar:: be a part
 
    AXIOM is driven by an open community, come join us!  Don't hesitate, no
    need to be an *expert*, everyone can contribute:
 
-   - `help to improve translations <https://translate.codeberg.org/projects/searxng/searxng/>`_
-   - `discuss with the community <https://matrix.to/#/#searxng:matrix.org>`_
+   - `help to improve translations <https://translate.codeberg.org/projects/axiom/axiom/>`_
+   - `discuss with the community <https://matrix.to/#/#axiom:matrix.org>`_
    - report bugs & suggestions
    - ...
 
