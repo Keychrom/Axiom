@@ -22,7 +22,7 @@ listen("click", ".axiom_init_map", async function (this: HTMLElement, event: Eve
     Feature,
     Point
   } = await import("../pkg/ol.ts");
-  import("ol/ol.css");
+  void import("ol/ol.css");
 
   const { leafletTarget: target, mapLon, mapLat, mapGeojson } = this.dataset;
 

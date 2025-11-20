@@ -39,18 +39,19 @@
 # SecularSteve <secularsteve@noreply.codeberg.org>, 2025.
 msgid ""
 msgstr ""
-"Project-Id-Version:  searx\n"
+"Project-Id-Version: searx\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2025-10-10 16:16+0000\n"
-"PO-Revision-Date: 2025-09-02 04:50+0000\n"
-"Last-Translator: return42 <return42@noreply.codeberg.org>\n"
+"POT-Creation-Date: 2025-10-20 08:35+0000\n"
+"PO-Revision-Date: 2025-10-27 14:09+0000\n"
+"Last-Translator: artens <artens@noreply.codeberg.org>\n"
+"Language-Team: Dutch <https://translate.codeberg.org/projects/searxng/"
+"searxng/nl/>\n"
 "Language: nl\n"
-"Language-Team: Dutch "
-"<https://translate.codeberg.org/projects/searxng/searxng/nl/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.13.3\n"
 "Generated-By: Babel 2.17.0\n"
 
 #. CONSTANT_NAMES['NO_SUBGROUPING']
@@ -813,11 +814,11 @@ msgstr "Jouw user-agent is: "
 
 #: searx/plugins/time_zone.py:33
 msgid "Timezones plugin"
-msgstr ""
+msgstr "Tijdzone plugin"
 
 #: searx/plugins/time_zone.py:34
 msgid "Display the current time on different time zones."
-msgstr ""
+msgstr "De uidige tijd weergeven in verschillende tijdzones."
 
 #: searx/plugins/tor_check.py:41
 msgid "Tor check plugin"
@@ -924,23 +925,23 @@ msgstr "Neem contact op met beheerder instantie"
 msgid "Click on the magnifier to perform search"
 msgstr "Klik op het vergrootglas om te zoeken"
 
-#: searx/templates/simple/macros.html:40
+#: searx/templates/simple/macros.html:41
 msgid "Length"
 msgstr "Lengte"
 
-#: searx/templates/simple/macros.html:41
+#: searx/templates/simple/macros.html:42
 #: searx/templates/simple/result_templates/paper.html:74
 msgid "Views"
 msgstr "Aantal keer bekeken"
 
-#: searx/templates/simple/macros.html:42
-#: searx/templates/simple/result_templates/files.html:34
+#: searx/templates/simple/macros.html:43
+#: searx/templates/simple/result_templates/file.html:18
 #: searx/templates/simple/result_templates/images.html:19
 #: searx/templates/simple/result_templates/paper.html:14
 msgid "Author"
 msgstr "Auteur"
 
-#: searx/templates/simple/macros.html:50
+#: searx/templates/simple/macros.html:51
 msgid "cached"
 msgstr "gecachet"
 
@@ -1014,14 +1015,16 @@ msgid ""
 "This is a preview of the settings used by the 'Search URL' you used to "
 "get here."
 msgstr ""
+"Dit is een voorbeeld van de toegepaste instellingen door de 'Zoek URL' die "
+"je gebruikte om hier te komen."
 
 #: searx/templates/simple/preferences.html:162
 msgid "Press save to copy these preferences to your browser."
-msgstr ""
+msgstr "Gebruik 'opslaan' om deze voorkeuren over te nemen in je browser."
 
 #: searx/templates/simple/preferences.html:163
 msgid "Click here to view your browser preferences instead:"
-msgstr ""
+msgstr "Klik hier om als alternatief je browserinstellingen te bekijken:"
 
 #: searx/templates/simple/preferences.html:173
 msgid "General"
@@ -1159,7 +1162,7 @@ msgid "Parameter"
 msgstr "Parameter"
 
 #: searx/templates/simple/result_templates/code.html:29
-#: searx/templates/simple/result_templates/files.html:36
+#: searx/templates/simple/result_templates/file.html:24
 #: searx/templates/simple/stats.html:119
 msgid "Filename"
 msgstr "Bestandsnaam"
@@ -1673,13 +1676,13 @@ msgid "Repository"
 msgstr "Opslagplaats"
 
 #: searx/templates/simple/result_templates/default.html:6
-#: searx/templates/simple/result_templates/files.html:8
-#: searx/templates/simple/result_templates/files.html:11
+#: searx/templates/simple/result_templates/file.html:53
+#: searx/templates/simple/result_templates/file.html:56
 msgid "show media"
 msgstr "toon media"
 
 #: searx/templates/simple/result_templates/default.html:6
-#: searx/templates/simple/result_templates/files.html:8
+#: searx/templates/simple/result_templates/file.html:54
 msgid "hide media"
 msgstr "verberg media"
 
@@ -1688,20 +1691,24 @@ msgstr "verberg media"
 msgid "This site did not provide any description."
 msgstr "Deze site heeft geen beschrijving gegeven."
 
-#: searx/templates/simple/result_templates/files.html:38
+#: searx/templates/simple/result_templates/file.html:30
 #: searx/templates/simple/result_templates/images.html:22
 #: searx/templates/simple/result_templates/torrent.html:18
 msgid "Filesize"
 msgstr "Bestandsgrootte"
 
-#: searx/templates/simple/result_templates/files.html:40
+#: searx/templates/simple/result_templates/file.html:36
 msgid "Date"
 msgstr "Datum"
 
-#: searx/templates/simple/result_templates/files.html:42
+#: searx/templates/simple/result_templates/file.html:42
 #: searx/templates/simple/result_templates/paper.html:44
 msgid "Type"
 msgstr "Type"
+
+#: searx/templates/simple/result_templates/file.html:67
+msgid "Download"
+msgstr "Downloaden"
 
 #: searx/templates/simple/result_templates/images.html:20
 msgid "Resolution"
@@ -1717,7 +1724,7 @@ msgstr "Zoekmachine"
 
 #: searx/templates/simple/result_templates/images.html:25
 msgid "View source"
-msgstr "Bekijk bron"
+msgstr "Bekijk brongegevens"
 
 #: searx/templates/simple/result_templates/map.html:12
 msgid "address"
@@ -1737,7 +1744,7 @@ msgstr "Versie"
 
 #: searx/templates/simple/result_templates/packages.html:18
 msgid "Maintainer"
-msgstr "Handhaver"
+msgstr "Beheerder"
 
 #: searx/templates/simple/result_templates/packages.html:24
 msgid "Updated at"
@@ -1778,7 +1785,7 @@ msgstr "Redacteur"
 
 #: searx/templates/simple/result_templates/paper.html:38
 msgid "Publisher"
-msgstr "uitgever"
+msgstr "Uitgever"
 
 #: searx/templates/simple/result_templates/paper.html:56
 msgid "DOI"
@@ -1802,7 +1809,7 @@ msgstr "HTML"
 
 #: searx/templates/simple/result_templates/torrent.html:7
 msgid "magnet link"
-msgstr "magneetlink"
+msgstr "magnetlink"
 
 #: searx/templates/simple/result_templates/torrent.html:8
 msgid "torrent file"
@@ -1814,7 +1821,7 @@ msgstr "Seeders"
 
 #: searx/templates/simple/result_templates/torrent.html:14
 msgid "Leecher"
-msgstr "Leechers"
+msgstr "Leecher"
 
 #: searx/templates/simple/result_templates/torrent.html:19
 msgid "Number of Files"
@@ -2433,4 +2440,3 @@ msgstr "verberg video"
 
 #~ msgid "repo"
 #~ msgstr "repo's"
-
